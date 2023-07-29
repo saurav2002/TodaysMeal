@@ -1,0 +1,32 @@
+.main {
+  /* width: 100%; */
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 6.5rem;
+  color: #8a2b06;
+}
+.innerLeft {
+  /* height: 6.5rem; */
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 2rem;
+}
+.inneRight {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inneRight button {
+  margin: 0 0.4rem;
+  height: 2rem;
+  width: 3rem;
+  background-color: white;
+  border: 1px solid #8a2b06;
+  border-radius: 14px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #8a2b06;
+}
